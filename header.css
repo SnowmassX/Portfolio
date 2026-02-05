@@ -1,0 +1,66 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.middle-section{
+    flex: 1;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 50px;
+    max-width: 500px;
+    align-items: center;
+}
+.right-section{
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftp{
+    font-size: 20px;
+}
+.search-bar{
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    justify-content: center;
+    border-radius: 25px;
+    width: 400px;
+    outline: none;
+    transition: width 0.4s ease-in-out, border-color 0.3s;
+    text-align: center;
+    max-width: 600px;
+}
+.search-bar:focus{
+    width: 550px;
+    border-color: #007BFF;
+}
+.home-button{
+    height: 25px;
+    margin-right: 15px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.about-button{
+    height: 25px;
+    margin-right: 15px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.contact-button{
+    height: 25px;
+    border-width: 0px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

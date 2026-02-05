@@ -1,0 +1,24 @@
+footer {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+footer-container {
+ display: flex;
+ justify-content: space-around;
+}
+footer-section h4 {
+ margin-bottom: 10px;
+}
+footer-section a {
+ color: #00bcd4;
+ text-decoration: none;
+}
+footer-section a:hover {
+ text-decoration: underline;
+}
+copyright {
+ margin-top: 20px;
+ font-size: 0.9em;
+}

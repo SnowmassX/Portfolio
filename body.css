@@ -1,0 +1,41 @@
+.right-body{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.myImg{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.left-body{
+   flex: 1;
+}
+.myUni{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.aboutMe{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    gap: 50px;
+}
+.myName{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
