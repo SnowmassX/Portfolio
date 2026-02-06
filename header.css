@@ -64,3 +64,21 @@ a{
     text-decoration: none;
     color: inherit;
 }
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .middle-section {
+        width: 100%;
+    }
+
+    .search-bar {
+        width: 90%;
+    }
+}
+* {
+    box-sizing: border-box;
+}

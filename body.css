@@ -39,3 +39,25 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .left-body {
+        max-width: 100%;
+    }
+
+    .myImg {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+}
+* {
+    box-sizing: border-box;
+}
