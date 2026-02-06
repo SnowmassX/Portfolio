@@ -71,3 +71,16 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 768px) {
+    .middle-section {
+        display: none;
+    }
+
+    .right-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
