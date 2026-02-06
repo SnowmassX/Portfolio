@@ -17,3 +17,23 @@
     text-align: center;
     margin: 50px auto;
 }
+
+
+
+.project-tech {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.project-tech i {
+    font-size: 1.3rem;
+    opacity: 0.85;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.project-tech i:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
