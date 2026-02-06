@@ -1,3 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 footer {
  background-color: #333;
  color: #fff;
