@@ -1,0 +1,19 @@
+.detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.project{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.projectp{
+    text-align: center;
+    margin: 50px auto;
+}
