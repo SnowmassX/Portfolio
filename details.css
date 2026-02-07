@@ -18,7 +18,12 @@
     margin: 50px auto;
 }
 
-
+.card-img-top{
+    width: min(auto, 70vw);
+    height: auto;
+    
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
 
 .project-tech {
     display: flex;
@@ -28,7 +33,7 @@
 }
 
 .project-tech i {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     opacity: 0.85;
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
