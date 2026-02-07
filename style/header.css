@@ -87,3 +87,9 @@ a{
     }
 }
 
+mark{
+    background: yellow;
+    padding: 2px 4px;
+}
+
+
