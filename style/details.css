@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    width: 80vw;
+    margin: auto;
 }
 .project{
     display: flex;
